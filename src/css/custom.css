@@ -1,0 +1,257 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&family=Lora&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap');
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #73d6cf;
+  --ifm-color-primary-dark: rgb(33, 167, 157);
+  --ifm-color-primary-darker: rgb(31, 159, 150);
+  --ifm-color-primary-darkest: rgb(26, 171, 160);
+  --ifm-color-primary-light: rgb(170, 225, 221);
+  --ifm-color-primary-lighter: rgb(200, 233, 231);
+  --ifm-color-primary-lightest: rgb(255, 255, 255);
+  --ifm-code-font-size: 95%;
+  --ifm-font-family-base: 'Open Sans';
+}
+
+
+
+html[data-theme='dark']{
+  --ifm-background-surface-color: #181520;
+  --ifm-background-color: #141528;
+}
+
+
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.button{
+  border-color: #ebedf05e;
+}
+
+.button--secondary:not(.button--outline) {
+    --ifm-button-background-color: #e37560;
+}
+
+.button--secondary:not(.button--outline):hover {
+    --ifm-button-background-color: rgb(0 0 0);
+    color: wheat;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 calc(var(--ifm-spacing-horizontal) * -1);
+}
+
+.rowMain {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 calc(var(--ifm-spacing-horizontal) * -1);
+}
+
+.navbar__link {
+    color: var(--ifm-navbar-link-color);
+    font-weight: var(--ifm-button-font-weight);
+}
+
+.navbar__link:hover, .navbar__link--active{
+  color: #7e2121;
+}
+
+.sidebar_node_modules-\@docusaurus-theme-classic-lib-next-theme-BlogSidebar-styles-module{
+max-height: calc(100vh - (var(--ifm-navbar-height) + 2rem));
+overflow-y: auto;
+position: sticky;
+top: calc(var(--ifm-navbar-height) + 2rem);
+html[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+  }
+}
+
+.frame{
+  width: 100vw;
+  height: 70vh;
+}
+
+
+
+h1{
+  font-family: 'Averia Serif Libre', cursive;
+}
+
+h2{
+  font-family: 'Raleway', sans-serif;
+}
+
+h3,h4{
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.footer__title{
+  text-align: center;
+}
+
+.footer__item{
+  margin-inline-start: 0;
+  text-align: center;
+}
+
+.footer__copyright{
+  padding-top: 16px;
+}
+
+.footer--dark {
+    --ifm-footer-background-color: #15162e;
+}
+
+@media print {
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
+
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  img {
+    max-width: 25% !important;
+  }
+
+html {
+  font-size: 12px;
+}
+
+@media screen and (min-width: 32rem) and (max-width: 48rem) {
+  html {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  line-height: 1.85;
+}
+
+p,
+.splendor-p {
+  font-size: 1rem;
+  margin-bottom: 1.3rem;
+}
+
+
+
+small,
+.splendor-small {
+  font-size: .707em;
+}
+
+img,
+canvas,
+iframe,
+video,
+svg,
+select,
+textarea {
+  max-width: 25%;
+}
+}
+
+html {
+  font-size: 18px;
+  max-width: 100%;
+}
+
+body {
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+
+
+blockquote p {
+  font-size: 1.0rem;
+  font-style: italic;
+  margin: 1rem auto 1rem;
+  max-width: 48rem;
+}
+
+li {
+  margin-left: 2rem;
+}
+
+
+pre,
+code {
+  font-family: Menlo, Monaco, "Courier New", monospace;
+}
+
+pre {
+  background-color: #fafafa;
+  font-size: .8rem;
+  overflow-x: scroll;
+  padding: 1.125em;
+}
+
+a,
+a:visited {
+  color: #c97070;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #be895d;
+}
