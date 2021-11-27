@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: snigui.github.io
+Token: 9e4ae7717034e808986657556706812ee4672bdd055c28e7e9a1ba751e834fa9
