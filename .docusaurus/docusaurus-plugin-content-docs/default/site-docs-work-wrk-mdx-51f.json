@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Work/wrk",
+  "id": "Work/wrk",
+  "isDocsHomePage": false,
+  "title": "Work experiences",
+  "description": "progress",
+  "source": "@site/docs/Work/wrk.mdx",
+  "sourceDirName": "Work",
+  "slug": "/Work/wrk",
+  "permalink": "/docs/Work/wrk",
+  "editUrl": "https://github.com/snigui/snigui.github.io/docs/Work/wrk.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "portfolioSidebar",
+  "previous": {
+    "title": "Education",
+    "permalink": "/docs/Education/edu"
+  },
+  "next": {
+    "title": "Example Page",
+    "permalink": "/docs/doc1"
+  }
+}

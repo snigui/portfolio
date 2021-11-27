@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>conscious stardust Blog</title>
+        <link>https://snigui.github.io/blog</link>
+        <description>conscious stardust Blog</description>
+        <lastBuildDate>Sat, 27 Nov 2021 09:54:03 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[experimental podcast audio]]></title>
+            <link>https://snigui.github.io/blog/voicenote</link>
+            <guid>voicenote</guid>
+            <pubDate>Sat, 27 Nov 2021 09:54:03 GMT</pubDate>
+            <description><![CDATA[atypicalhuman0.0]]></description>
+            <content:encoded><![CDATA[<details><summary> atypicalhuman0.0 </summary><p><a href="https://open.spotify.com/episode/3n8tSckrE9JK0GEfWHWsmm?si=YI-KNx71QYSzBPs8sBrOFw"><img src="./podcastBadge.svg" alt="badge"/></a></p><h2>experimental note:</h2><p><img src="./experiment.gif" alt="experiment"/></p><details><summary>    audio:    </summary><iframe src="https://share.descript.com/embed/6nlw0DbxEUg" width="auto" height="900" display="block" frameBorder="0" allowfullscreen=""></iframe></details></details>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[archive of science videos]]></title>
+            <link>https://snigui.github.io/blog/Breakthrough Junior Challenge Videos</link>
+            <guid>Breakthrough Junior Challenge Videos</guid>
+            <pubDate>Sat, 13 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Breakthrough Junior Challenge Videos!]]></description>
+            <content:encoded><![CDATA[<details><summary> Breakthrough Junior Challenge Videos! </summary><h3>Here is the saga of the videos</h3><blockquote><p>that did not get to see the light of day after the challenges ended <del>and because I was too shy to make them <strong>public</strong> public</del></p></blockquote><details><summary> On Nuclear Power, 2018 </summary><div class="frame"><iframe id="ytplayer" type="text/html" width="100%" height="400" src="https://www.youtube.com/embed/scwKfxHTfPI?autoplay=1&amp;cc_load_policy=1&amp;enablejsapi=1&amp;modestbranding=1&amp;playsinline=1&amp;color=white" frameborder="0"></iframe></div></details><hr/><details><summary> On Fire, 2017 </summary><div class="frame"><iframe id="ytplayer" type="text/html" width="100%" height="400" src="https://www.youtube.com/embed/4Zus1DGcvoM?autoplay=1&amp;cc_load_policy=1&amp;enablejsapi=1&amp;modestbranding=1&amp;playsinline=1&amp;color=white" frameborder="0"></iframe></div></details><hr/><details><summary> On Meditation, 2016 </summary><div class="frame"><iframe id="ytplayer" type="text/html" width="100%" height="400" src="https://www.youtube.com/embed/pAGmtlv2mCA?autoplay=1&amp;cc_load_policy=1&amp;enablejsapi=1&amp;modestbranding=1&amp;playsinline=1&amp;color=white" frameborder="0"></iframe></div></details><h4>too late to unsee them anymore</h4></details>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[automating the web!]]></title>
+            <link>https://snigui.github.io/blog/auto</link>
+            <guid>auto</guid>
+            <pubDate>Fri, 12 Nov 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[so you have to register for classes at 7:00am...]]></description>
+            <content:encoded><![CDATA[<details><summary> so you have to register for classes at 7:00am... </summary><h2>Let python do it for you with Selenium</h2><p><a href="https://selenium-python.readthedocs.io/installation.html"><img src="./logo.svg" alt="click me"/></a></p><p>Selenium is a web scraping tool that beautifully integrates with python. It allows you to automate webpage interactions.</p><p>I stumbled across it a while ago, but I had not used the actual API until recently. Long story short, I had to make a doctor&#x27;s appointment right at 12am to even find a spot (thank you American healthcare system!).</p><p>Regardless, whether it be to automate time sensitive actions or long and arduous form filling, Selenium is here for your rescue. I will go over a few useful Selenium methods that should equip you with basic webpage interactions.</p><blockquote><p>Note: these methods work as of November 2021</p></blockquote><h3>Useful Selenium methods</h3><hr/><p><code>service.start()</code></p><p>This <a href="https://www.selenium.dev/selenium/docs/api/rb/Selenium/WebDriver/Service.html">method</a> allows to set up a browser driver.</p><p>I personally used the chrome driver:</p><pre><code class="language-python">from selenium import webdriver
+
+from selenium.webdriver.chrome.service import Service
+
+service = Service(&#x27;/path/to/chromedriver&#x27;)
+
+service.start()
+</code></pre><blockquote><p>You will have to locally install the &#x27;chromedriver&#x27; executable. You can install it and find more usage examples <a href="https://chromedriver.chromium.org/getting-started">here</a>.</p></blockquote><hr/><p><code>driver.get(url)</code></p><p>Once you have the browser all set up, you can connect to it remotely with Selenium using the .get method as follows:</p><pre><code class="language-python">driver = webdriver.Remote(service.service_url)
+driver.get(&#x27;[insert url of page you want to selenium to work its magic on]&#x27;)
+</code></pre><p>And, that&#x27;s the basic set up! You can now inspect element on the target webpage to figure out which fields you want to automate interaction with.</p><hr/><p><code>driver.find_element</code></p><p>Let&#x27;s say, I want to automatically search something on Google. I would first figure out the class name/ID of the search bar using &quot;inspect element&quot;:</p><p><img src="./snip.png" alt="google"/></p><p>Since there is only a class name of <code>gLFyf</code> attached, it would be used to select the search bar and insert a value to search using the code:</p><pre><code class="language-python">searchbar = &#x27;gLFyf&#x27;
+driver.find_element(By.CLASS_NAME,searchbar).send_keys(&quot;[value to search]&quot;)
+</code></pre><blockquote><p>The send_keys method can take an array as well to fit the format of the input field. Regardless of the type of input, &quot; &quot; are needed.</p></blockquote><hr/><p><code>actions</code></p><p>Finally, you can make Selenium click the search button by repeating a similar process of finding the search button&#x27;s class name/ID. Here&#x27;s a sample snippet:</p><pre><code class="language-python">submit = &quot;gNO89b&quot;
+driver.find_element(By.CLASS_NAME, submit).click()
+</code></pre><blockquote><p>A full list of different actions Selenium can perform can be found <a href="https://selenium-python.readthedocs.io/navigating.html">here</a>.</p></blockquote><hr/><p><code>driver.quit()</code></p><p>Don&#x27;t forget to close the automation process and the browser by using the quit method at the end!</p><hr/><h4>Have fun with your newfound web super power.</h4><blockquote><p>Tip: you can also schedule your python script to execute during specific times using <a href="https://wiki.archlinux.org/title/cron#Crontab_format">cron</a></p></blockquote></details>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[so, I met...]]></title>
+            <link>https://snigui.github.io/blog/sean carroll!</link>
+            <guid>sean carroll!</guid>
+            <pubDate>Fri, 01 Oct 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Sean Carroll]]></description>
+            <content:encoded><![CDATA[<details><summary> Sean Carroll </summary><p><img src="./sean.gif" alt="sean"/></p><h2>on: <a href="https://www.preposterousuniverse.com/blog/2014/06/30/why-the-many-worlds-formulation-of-quantum-mechanics-is-probably-correct/"><em>The Many World of Quantum Physics</em></a></h2><blockquote><p>Physicist <a href="https://www.preposterousuniverse.com/">Sean Carroll</a>, from CalTech, gave a guest lecture <a href="https://www.facebook.com/ubphysics/photos/pcb.6325105130896296/6325099690896840">here at my university!!</a></p><hr/></blockquote><details><summary> I asked him.... </summary><p><img src="./snig.png" alt="snigdha"/></p><blockquote><p>many questions but my favorite pick is: <em>&quot;why the universe is thought to be symmetric?&quot;</em> and he said..</p></blockquote><blockquote><blockquote><pre><code>   &quot;it doesn&#x27;t have to be!&quot;
+</code></pre></blockquote></blockquote></details></details>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[archive of garage music]]></title>
+            <link>https://snigui.github.io/blog/Videos of Audios</link>
+            <guid>Videos of Audios</guid>
+            <pubDate>Mon, 18 Jul 2016 00:00:00 GMT</pubDate>
+            <description><![CDATA[Musical exploration, from the teenage era]]></description>
+            <content:encoded><![CDATA[<details><summary> Musical exploration, from the teenage era </summary><h3>Nothing much to listen here</h3><blockquote><p>just some music I made using Garageband back in the day <del>that have been well hidden from the world because I was too embarrassed by my horrible skills at making music</del></p></blockquote><details><summary> Garageband Musicals </summary><div class="frame"><iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLzoRCirCtkr98lCaTViuyHj9ISGuKvhWT" title="music" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div></details><hr/><h4>too late to unhear them anymore</h4></details>]]></content:encoded>
+        </item>
+    </channel>
+</rss>

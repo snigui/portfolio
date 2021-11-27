@@ -1,0 +1,607 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "loadedVersions": [
+        {
+          "versionName": "current",
+          "versionLabel": "Next",
+          "versionPath": "/docs",
+          "tagsPath": "/docs/tags",
+          "versionEditUrl": "https://github.com/snigui/snigui.github.io/docs",
+          "versionEditUrlLocalized": "https://github.com/snigui/snigui.github.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "versionBanner": null,
+          "versionBadge": false,
+          "versionClassName": "docs-version-current",
+          "isLast": true,
+          "routePriority": -1,
+          "sidebarFilePath": "/Users/saki/Documents/snigui.github.io/sidebars.js",
+          "contentPath": "/Users/saki/Documents/snigui.github.io/docs",
+          "contentPathLocalized": "/Users/saki/Documents/snigui.github.io/i18n/en/docusaurus-plugin-content-docs/current",
+          "mainDocId": "credentials",
+          "sidebars": {
+            "portfolioSidebar": [
+              {
+                "type": "doc",
+                "id": "credentials"
+              },
+              {
+                "type": "category",
+                "label": "Education",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Education/edu"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Work",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "Work/wrk"
+                  }
+                ]
+              },
+              {
+                "type": "doc",
+                "id": "doc1",
+                "label": "Example Page"
+              },
+              {
+                "type": "doc",
+                "id": "doc2"
+              },
+              {
+                "type": "doc",
+                "id": "doc3"
+              },
+              {
+                "type": "doc",
+                "id": "doc4"
+              },
+              {
+                "type": "doc",
+                "id": "doc5"
+              }
+            ]
+          },
+          "docs": [
+            {
+              "unversionedId": "credentials",
+              "id": "credentials",
+              "isDocsHomePage": false,
+              "title": "♥️",
+              "description": "🙏 namaste",
+              "source": "@site/docs/credentials.mdx",
+              "sourceDirName": ".",
+              "slug": "/credentials",
+              "permalink": "/docs/credentials",
+              "editUrl": "https://github.com/snigui/snigui.github.io/docs/credentials.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "portfolioSidebar",
+              "next": {
+                "title": "Education",
+                "permalink": "/docs/Education/edu"
+              }
+            },
+            {
+              "unversionedId": "doc1",
+              "id": "doc1",
+              "isDocsHomePage": false,
+              "title": "Latin-ish",
+              "description": "Check the documentation for how to use Docusaurus.",
+              "source": "@site/docs/doc1.md",
+              "sourceDirName": ".",
+              "slug": "/doc1",
+              "permalink": "/docs/doc1",
+              "editUrl": "https://github.com/snigui/snigui.github.io/docs/doc1.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "doc1",
+                "title": "Latin-ish",
+                "sidebar_label": "Example Page"
+              },
+              "sidebar": "portfolioSidebar",
+              "previous": {
+                "title": "Work experiences",
+                "permalink": "/docs/Work/wrk"
+              },
+              "next": {
+                "title": "document number 2",
+                "permalink": "/docs/doc2"
+              }
+            },
+            {
+              "unversionedId": "doc2",
+              "id": "doc2",
+              "isDocsHomePage": false,
+              "title": "document number 2",
+              "description": "This is a link to another document.",
+              "source": "@site/docs/doc2.md",
+              "sourceDirName": ".",
+              "slug": "/doc2",
+              "permalink": "/docs/doc2",
+              "editUrl": "https://github.com/snigui/snigui.github.io/docs/doc2.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "doc2",
+                "title": "document number 2"
+              },
+              "sidebar": "portfolioSidebar",
+              "previous": {
+                "title": "Example Page",
+                "permalink": "/docs/doc1"
+              },
+              "next": {
+                "title": "This is document number 3",
+                "permalink": "/docs/doc3"
+              }
+            },
+            {
+              "unversionedId": "doc3",
+              "id": "doc3",
+              "isDocsHomePage": false,
+              "title": "This is document number 3",
+              "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+              "source": "@site/docs/doc3.md",
+              "sourceDirName": ".",
+              "slug": "/doc3",
+              "permalink": "/docs/doc3",
+              "editUrl": "https://github.com/snigui/snigui.github.io/docs/doc3.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "doc3",
+                "title": "This is document number 3"
+              },
+              "sidebar": "portfolioSidebar",
+              "previous": {
+                "title": "document number 2",
+                "permalink": "/docs/doc2"
+              },
+              "next": {
+                "title": "Other Document",
+                "permalink": "/docs/doc4"
+              }
+            },
+            {
+              "unversionedId": "doc4",
+              "id": "doc4",
+              "isDocsHomePage": false,
+              "title": "Other Document",
+              "description": "this is another document",
+              "source": "@site/docs/exampledoc4.md",
+              "sourceDirName": ".",
+              "slug": "/doc4",
+              "permalink": "/docs/doc4",
+              "editUrl": "https://github.com/snigui/snigui.github.io/docs/exampledoc4.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "doc4",
+                "title": "Other Document"
+              },
+              "sidebar": "portfolioSidebar",
+              "previous": {
+                "title": "This is document number 3",
+                "permalink": "/docs/doc3"
+              },
+              "next": {
+                "title": "Fifth Document",
+                "permalink": "/docs/doc5"
+              }
+            },
+            {
+              "unversionedId": "doc5",
+              "id": "doc5",
+              "isDocsHomePage": false,
+              "title": "Fifth Document",
+              "description": "Another one",
+              "source": "@site/docs/exampledoc5.md",
+              "sourceDirName": ".",
+              "slug": "/doc5",
+              "permalink": "/docs/doc5",
+              "editUrl": "https://github.com/snigui/snigui.github.io/docs/exampledoc5.md",
+              "tags": [],
+              "version": "current",
+              "frontMatter": {
+                "id": "doc5",
+                "title": "Fifth Document"
+              },
+              "sidebar": "portfolioSidebar",
+              "previous": {
+                "title": "Other Document",
+                "permalink": "/docs/doc4"
+              }
+            },
+            {
+              "unversionedId": "Education/edu",
+              "id": "Education/edu",
+              "isDocsHomePage": false,
+              "title": "Education",
+              "description": "State Univerisity of New York at Buffalo",
+              "source": "@site/docs/Education/edu.mdx",
+              "sourceDirName": "Education",
+              "slug": "/Education/edu",
+              "permalink": "/docs/Education/edu",
+              "editUrl": "https://github.com/snigui/snigui.github.io/docs/Education/edu.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "portfolioSidebar",
+              "previous": {
+                "title": "♥️",
+                "permalink": "/docs/credentials"
+              },
+              "next": {
+                "title": "Work experiences",
+                "permalink": "/docs/Work/wrk"
+              }
+            },
+            {
+              "unversionedId": "Work/wrk",
+              "id": "Work/wrk",
+              "isDocsHomePage": false,
+              "title": "Work experiences",
+              "description": "progress",
+              "source": "@site/docs/Work/wrk.mdx",
+              "sourceDirName": "Work",
+              "slug": "/Work/wrk",
+              "permalink": "/docs/Work/wrk",
+              "editUrl": "https://github.com/snigui/snigui.github.io/docs/Work/wrk.mdx",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "sidebar_position": 3
+              },
+              "sidebar": "portfolioSidebar",
+              "previous": {
+                "title": "Education",
+                "permalink": "/docs/Education/edu"
+              },
+              "next": {
+                "title": "Example Page",
+                "permalink": "/docs/doc1"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "docusaurus-plugin-content-blog": {
+    "default": {
+      "blogSidebarTitle": "Recent posts",
+      "blogPosts": [
+        {
+          "id": "voicenote",
+          "metadata": {
+            "permalink": "/blog/voicenote",
+            "editUrl": "https://github.com/snigui/snigui.github.io/blog/2021-voicenote/index.md",
+            "source": "@site/blog/2021-voicenote/index.md",
+            "title": "experimental podcast audio",
+            "description": "atypicalhuman0.0",
+            "date": "2021-11-27T09:54:03.068Z",
+            "formattedDate": "November 27, 2021",
+            "tags": [
+              {
+                "label": "voice note",
+                "permalink": "/blog/tags/voice-note"
+              }
+            ],
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Snigdha Motadaka",
+                "title": "bit flipper",
+                "url": "https://github.com/snigui",
+                "imageURL": "/portfolio/img/pro.jpg",
+                "key": "snigdha"
+              }
+            ],
+            "nextItem": {
+              "title": "archive of science videos",
+              "permalink": "/blog/Breakthrough Junior Challenge Videos"
+            }
+          },
+          "content": "<details>\n<summary> atypicalhuman0.0 </summary>\n\n[![badge](./podcastBadge.svg)](https://open.spotify.com/episode/3n8tSckrE9JK0GEfWHWsmm?si=YI-KNx71QYSzBPs8sBrOFw)\n\n## experimental note:\n![experiment](./experiment.gif)\n\n<details>\n<summary>    audio:    </summary>\n\n<iframe src=\"https://share.descript.com/embed/6nlw0DbxEUg\" width=\"auto\" height=\"900\" display=\"block\" frameBorder=\"0\" allowFullScreen></iframe>\n\n</details>\n</details>"
+        },
+        {
+          "id": "Breakthrough Junior Challenge Videos",
+          "metadata": {
+            "permalink": "/blog/Breakthrough Junior Challenge Videos",
+            "editUrl": "https://github.com/snigui/snigui.github.io/blog/2021-11-13-archive/archive.md",
+            "source": "@site/blog/2021-11-13-archive/archive.md",
+            "title": "archive of science videos",
+            "description": "Breakthrough Junior Challenge Videos!",
+            "date": "2021-11-13T00:00:00.000Z",
+            "formattedDate": "November 13, 2021",
+            "tags": [
+              {
+                "label": "videos",
+                "permalink": "/blog/tags/videos"
+              },
+              {
+                "label": "animation",
+                "permalink": "/blog/tags/animation"
+              },
+              {
+                "label": "science",
+                "permalink": "/blog/tags/science"
+              }
+            ],
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Snigdha Motadaka",
+                "title": "bit flipper",
+                "url": "https://github.com/snigui",
+                "imageURL": "/portfolio/img/pro.jpg",
+                "key": "snigdha"
+              }
+            ],
+            "prevItem": {
+              "title": "experimental podcast audio",
+              "permalink": "/blog/voicenote"
+            },
+            "nextItem": {
+              "title": "automating the web!",
+              "permalink": "/blog/auto"
+            }
+          },
+          "content": "<details>\n<summary> Breakthrough Junior Challenge Videos! </summary>\n\n### Here is the saga of the videos\n> that did not get to see the light of day after the challenges ended ~~and because I was too shy to make them **public** public~~\n\n<details>\n<summary> On Nuclear Power, 2018 </summary>\n\n<div class=\"frame\">\n<iframe id=\"ytplayer\" type=\"text/html\" width=\"100%\" height=\"400\"\nsrc=\"https://www.youtube.com/embed/scwKfxHTfPI?autoplay=1&cc_load_policy=1&enablejsapi=1&modestbranding=1&playsinline=1&color=white\"\nframeborder=\"0\" allowfullscreen></iframe>\n</div>\n\n</details>\n\n---\n\n<details>\n<summary> On Fire, 2017 </summary>\n\n<div class=\"frame\">\n<iframe id=\"ytplayer\" type=\"text/html\" width=\"100%\" height=\"400\"\nsrc=\"https://www.youtube.com/embed/4Zus1DGcvoM?autoplay=1&cc_load_policy=1&enablejsapi=1&modestbranding=1&playsinline=1&color=white\"\nframeborder=\"0\" allowfullscreen></iframe>\n</div>\n\n</details>\n\n---\n\n<details>\n<summary> On Meditation, 2016 </summary>\n\n<div class=\"frame\">\n<iframe id=\"ytplayer\" type=\"text/html\" width=\"100%\" height=\"400\"\nsrc=\"https://www.youtube.com/embed/pAGmtlv2mCA?autoplay=1&cc_load_policy=1&enablejsapi=1&modestbranding=1&playsinline=1&color=white\"\nframeborder=\"0\" allowfullscreen></iframe>\n</div>\n\n</details>\n\n#### too late to unsee them anymore\n\n</details>"
+        },
+        {
+          "id": "auto",
+          "metadata": {
+            "permalink": "/blog/auto",
+            "editUrl": "https://github.com/snigui/snigui.github.io/blog/2021-11-12-auto/index.md",
+            "source": "@site/blog/2021-11-12-auto/index.md",
+            "title": "automating the web!",
+            "description": "so you have to register for classes at 7:00am...",
+            "date": "2021-11-12T00:00:00.000Z",
+            "formattedDate": "November 12, 2021",
+            "tags": [
+              {
+                "label": "python",
+                "permalink": "/blog/tags/python"
+              },
+              {
+                "label": "web scraping",
+                "permalink": "/blog/tags/web-scraping"
+              }
+            ],
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Snigdha Motadaka",
+                "title": "bit flipper",
+                "url": "https://github.com/snigui",
+                "imageURL": "/portfolio/img/pro.jpg",
+                "key": "snigdha"
+              }
+            ],
+            "prevItem": {
+              "title": "archive of science videos",
+              "permalink": "/blog/Breakthrough Junior Challenge Videos"
+            },
+            "nextItem": {
+              "title": "so, I met...",
+              "permalink": "/blog/sean carroll!"
+            }
+          },
+          "content": "<details>\n<summary> so you have to register for classes at 7:00am... </summary>\n\n## Let python do it for you with Selenium\n\n[![click me](./logo.svg)](https://selenium-python.readthedocs.io/installation.html)\n\nSelenium is a web scraping tool that beautifully integrates with python. It allows you to automate webpage interactions.\n\nI stumbled across it a while ago, but I had not used the actual API until recently. Long story short, I had to make a doctor's appointment right at 12am to even find a spot (thank you American healthcare system!).\n\nRegardless, whether it be to automate time sensitive actions or long and arduous form filling, Selenium is here for your rescue. I will go over a few useful Selenium methods that should equip you with basic webpage interactions.\n\n> Note: these methods work as of November 2021\n\n### Useful Selenium methods\n\n---\n\n`service.start()`\n\nThis [method](https://www.selenium.dev/selenium/docs/api/rb/Selenium/WebDriver/Service.html) allows to set up a browser driver.\n\nI personally used the chrome driver:\n\n```python\nfrom selenium import webdriver\n\nfrom selenium.webdriver.chrome.service import Service\n\nservice = Service('/path/to/chromedriver')\n\nservice.start()\n```\n\n> You will have to locally install the 'chromedriver' executable. You can install it and find more usage examples [here](https://chromedriver.chromium.org/getting-started).\n\n---\n`driver.get(url)`\n\nOnce you have the browser all set up, you can connect to it remotely with Selenium using the .get method as follows:\n\n```python\ndriver = webdriver.Remote(service.service_url)\ndriver.get('[insert url of page you want to selenium to work its magic on]')\n```\n\nAnd, that's the basic set up! You can now inspect element on the target webpage to figure out which fields you want to automate interaction with.\n\n---\n\n`driver.find_element`\n\nLet's say, I want to automatically search something on Google. I would first figure out the class name/ID of the search bar using \"inspect element\":\n\n![google](./snip.png)\n\nSince there is only a class name of `gLFyf` attached, it would be used to select the search bar and insert a value to search using the code:\n\n```python\nsearchbar = 'gLFyf'\ndriver.find_element(By.CLASS_NAME,searchbar).send_keys(\"[value to search]\")\n```\n\n> The send_keys method can take an array as well to fit the format of the input field. Regardless of the type of input, \" \" are needed.\n\n---\n\n`actions`\n\nFinally, you can make Selenium click the search button by repeating a similar process of finding the search button's class name/ID. Here's a sample snippet:\n\n```python\nsubmit = \"gNO89b\"\ndriver.find_element(By.CLASS_NAME, submit).click()\n```\n\n> A full list of different actions Selenium can perform can be found [here](https://selenium-python.readthedocs.io/navigating.html).\n\n---\n\n`driver.quit()`\n\nDon't forget to close the automation process and the browser by using the quit method at the end!\n\n---\n\n#### Have fun with your newfound web super power.\n\n> Tip: you can also schedule your python script to execute during specific times using [cron](https://wiki.archlinux.org/title/cron#Crontab_format)\n\n</details>"
+        },
+        {
+          "id": "sean carroll!",
+          "metadata": {
+            "permalink": "/blog/sean carroll!",
+            "editUrl": "https://github.com/snigui/snigui.github.io/blog/2021-10-01-yay/omg.md",
+            "source": "@site/blog/2021-10-01-yay/omg.md",
+            "title": "so, I met...",
+            "description": "Sean Carroll",
+            "date": "2021-10-01T00:00:00.000Z",
+            "formattedDate": "October 1, 2021",
+            "tags": [
+              {
+                "label": "noteworthy",
+                "permalink": "/blog/tags/noteworthy"
+              }
+            ],
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Snigdha Motadaka",
+                "title": "bit flipper",
+                "url": "https://github.com/snigui",
+                "imageURL": "/portfolio/img/pro.jpg",
+                "key": "snigdha"
+              }
+            ],
+            "prevItem": {
+              "title": "automating the web!",
+              "permalink": "/blog/auto"
+            },
+            "nextItem": {
+              "title": "archive of garage music",
+              "permalink": "/blog/Videos of Audios"
+            }
+          },
+          "content": "<details>\n<summary> Sean Carroll </summary>\n\n![sean](./sean.gif)\n\n## on: [*The Many World of Quantum Physics*](https://www.preposterousuniverse.com/blog/2014/06/30/why-the-many-worlds-formulation-of-quantum-mechanics-is-probably-correct/)\n> Physicist [Sean Carroll](https://www.preposterousuniverse.com/), from CalTech, gave a guest lecture [here at my university!!](https://www.facebook.com/ubphysics/photos/pcb.6325105130896296/6325099690896840)\n> ***\n\n\n<details>\n<summary> I asked him.... </summary>\n\n![snigdha](./snig.png)\n\n> many questions but my favorite pick is: *\"why the universe is thought to be symmetric?\"* and he said..\n\n>>\n       \"it doesn't have to be!\"\n\n</details>\n\n\n</details>"
+        },
+        {
+          "id": "Videos of Audios",
+          "metadata": {
+            "permalink": "/blog/Videos of Audios",
+            "editUrl": "https://github.com/snigui/snigui.github.io/blog/2016-07-18-music/music.md",
+            "source": "@site/blog/2016-07-18-music/music.md",
+            "title": "archive of garage music",
+            "description": "Musical exploration, from the teenage era",
+            "date": "2016-07-18T00:00:00.000Z",
+            "formattedDate": "July 18, 2016",
+            "tags": [
+              {
+                "label": "videos",
+                "permalink": "/blog/tags/videos"
+              },
+              {
+                "label": "animation",
+                "permalink": "/blog/tags/animation"
+              },
+              {
+                "label": "music",
+                "permalink": "/blog/tags/music"
+              },
+              {
+                "label": "art",
+                "permalink": "/blog/tags/art"
+              }
+            ],
+            "truncated": false,
+            "authors": [
+              {
+                "name": "Snigdha Motadaka",
+                "title": "bit flipper",
+                "url": "https://github.com/snigui",
+                "imageURL": "/portfolio/img/pro.jpg",
+                "key": "snigdha"
+              }
+            ],
+            "prevItem": {
+              "title": "so, I met...",
+              "permalink": "/blog/sean carroll!"
+            }
+          },
+          "content": "<details>\n<summary> Musical exploration, from the teenage era </summary>\n\n### Nothing much to listen here\n> just some music I made using Garageband back in the day ~~that have been well hidden from the world because I was too embarrassed by my horrible skills at making music~~\n\n<details>\n<summary> Garageband Musicals </summary>\n\n<div class=\"frame\">\n<iframe width=\"100%\" height=\"400\" src=\"https://www.youtube-nocookie.com/embed/videoseries?list=PLzoRCirCtkr98lCaTViuyHj9ISGuKvhWT\" title=\"music\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture\" allowfullscreen></iframe>\n</div>\n\n</details>\n\n---\n\n#### too late to unhear them anymore\n\n</details>"
+        }
+      ],
+      "blogListPaginated": [
+        {
+          "metadata": {
+            "permalink": "/blog",
+            "page": 1,
+            "postsPerPage": 10,
+            "totalPages": 1,
+            "totalCount": 5,
+            "previousPage": null,
+            "nextPage": null,
+            "blogDescription": "Blog",
+            "blogTitle": "Blog"
+          },
+          "items": [
+            "voicenote",
+            "Breakthrough Junior Challenge Videos",
+            "auto",
+            "sean carroll!",
+            "Videos of Audios"
+          ]
+        }
+      ],
+      "blogTags": {
+        "/blog/tags/voice-note": {
+          "name": "voice note",
+          "items": [
+            "voicenote"
+          ],
+          "permalink": "/blog/tags/voice-note"
+        },
+        "/blog/tags/videos": {
+          "name": "videos",
+          "items": [
+            "Breakthrough Junior Challenge Videos",
+            "Videos of Audios"
+          ],
+          "permalink": "/blog/tags/videos"
+        },
+        "/blog/tags/animation": {
+          "name": "animation",
+          "items": [
+            "Breakthrough Junior Challenge Videos",
+            "Videos of Audios"
+          ],
+          "permalink": "/blog/tags/animation"
+        },
+        "/blog/tags/science": {
+          "name": "science",
+          "items": [
+            "Breakthrough Junior Challenge Videos"
+          ],
+          "permalink": "/blog/tags/science"
+        },
+        "/blog/tags/python": {
+          "name": "python",
+          "items": [
+            "auto"
+          ],
+          "permalink": "/blog/tags/python"
+        },
+        "/blog/tags/web-scraping": {
+          "name": "web scraping",
+          "items": [
+            "auto"
+          ],
+          "permalink": "/blog/tags/web-scraping"
+        },
+        "/blog/tags/noteworthy": {
+          "name": "noteworthy",
+          "items": [
+            "sean carroll!"
+          ],
+          "permalink": "/blog/tags/noteworthy"
+        },
+        "/blog/tags/music": {
+          "name": "music",
+          "items": [
+            "Videos of Audios"
+          ],
+          "permalink": "/blog/tags/music"
+        },
+        "/blog/tags/art": {
+          "name": "art",
+          "items": [
+            "Videos of Audios"
+          ],
+          "permalink": "/blog/tags/art"
+        }
+      },
+      "blogTagsListPath": "/blog/tags"
+    }
+  },
+  "docusaurus-plugin-content-pages": {
+    "default": [
+      {
+        "type": "jsx",
+        "permalink": "/",
+        "source": "@site/src/pages/index.js"
+      },
+      {
+        "type": "jsx",
+        "permalink": "/portfolio",
+        "source": "@site/src/pages/portfolio.js"
+      }
+    ]
+  },
+  "docusaurus-plugin-debug": {
+    "default": null
+  },
+  "docusaurus-theme-classic": {
+    "default": null
+  }
+}

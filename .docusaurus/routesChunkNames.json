@@ -1,0 +1,198 @@
+{
+  "/blog-26c": {
+    "component": "a6aa9e1f",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "9edb301d"
+      },
+      {
+        "content": "c4a38330"
+      },
+      {
+        "content": "3e4cd572"
+      },
+      {
+        "content": "25a5ddc8"
+      },
+      {
+        "content": "de918c9b"
+      }
+    ],
+    "metadata": "b2b675dd"
+  },
+  "/blog/archive-f4c": {
+    "component": "9e4087bc",
+    "archive": "b2f554cd"
+  },
+  "/blog/auto-d70": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "ba824a9b"
+  },
+  "/blog/Breakthrough Junior Challenge Videos-4bf": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "2ae98927"
+  },
+  "/blog/sean carroll!-810": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "263c02d3"
+  },
+  "/blog/tags-e13": {
+    "component": "01a85c17",
+    "sidebar": "814f3328",
+    "tags": "a7023ddc"
+  },
+  "/blog/tags/animation-43a": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "c4a38330"
+      },
+      {
+        "content": "de918c9b"
+      }
+    ],
+    "metadata": "029fdef5"
+  },
+  "/blog/tags/art-8fc": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "de918c9b"
+      }
+    ],
+    "metadata": "78d93b4b"
+  },
+  "/blog/tags/music-667": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "de918c9b"
+      }
+    ],
+    "metadata": "86285adf"
+  },
+  "/blog/tags/noteworthy-885": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "25a5ddc8"
+      }
+    ],
+    "metadata": "46a9bc89"
+  },
+  "/blog/tags/python-001": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "3e4cd572"
+      }
+    ],
+    "metadata": "232c92ba"
+  },
+  "/blog/tags/science-b96": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "c4a38330"
+      }
+    ],
+    "metadata": "08ab1b3e"
+  },
+  "/blog/tags/videos-e4a": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "c4a38330"
+      },
+      {
+        "content": "de918c9b"
+      }
+    ],
+    "metadata": "4b164ac8"
+  },
+  "/blog/tags/voice-note-53a": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "9edb301d"
+      }
+    ],
+    "metadata": "d9a70d4e"
+  },
+  "/blog/tags/web-scraping-571": {
+    "component": "6875c492",
+    "sidebar": "814f3328",
+    "items": [
+      {
+        "content": "3e4cd572"
+      }
+    ],
+    "metadata": "18df502f"
+  },
+  "/blog/Videos of Audios-d6d": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "1a3c9509"
+  },
+  "/blog/voicenote-dc0": {
+    "component": "ccc49370",
+    "sidebar": "814f3328",
+    "content": "4cbdf35d"
+  },
+  "/portfolio-1b5": {
+    "component": "0e80eeec",
+    "config": "5e9f5e1a"
+  },
+  "/docs-87e": {
+    "component": "1be78505",
+    "versionMetadata": "935f2afb"
+  },
+  "/docs/credentials-bc7": {
+    "component": "17896441",
+    "content": "ebb9b4ae"
+  },
+  "/docs/doc1-e77": {
+    "component": "17896441",
+    "content": "b2f90839"
+  },
+  "/docs/doc2-a0f": {
+    "component": "17896441",
+    "content": "df361e2b"
+  },
+  "/docs/doc3-78b": {
+    "component": "17896441",
+    "content": "616665f6"
+  },
+  "/docs/doc4-d60": {
+    "component": "17896441",
+    "content": "86fd8261"
+  },
+  "/docs/doc5-537": {
+    "component": "17896441",
+    "content": "7a14c52e"
+  },
+  "/docs/Education/edu-f01": {
+    "component": "17896441",
+    "content": "46f67045"
+  },
+  "/docs/Work/wrk-703": {
+    "component": "17896441",
+    "content": "51f82734"
+  },
+  "/-deb": {
+    "component": "c4f5d8e4",
+    "config": "5e9f5e1a"
+  }
+}

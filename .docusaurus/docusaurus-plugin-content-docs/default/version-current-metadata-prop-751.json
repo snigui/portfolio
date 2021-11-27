@@ -1,0 +1,69 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "portfolioSidebar": [
+      {
+        "type": "link",
+        "label": "♥️",
+        "href": "/docs/credentials"
+      },
+      {
+        "type": "category",
+        "label": "Education",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Education",
+            "href": "/docs/Education/edu"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Work",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Work experiences",
+            "href": "/docs/Work/wrk"
+          }
+        ]
+      },
+      {
+        "type": "link",
+        "label": "Example Page",
+        "href": "/docs/doc1"
+      },
+      {
+        "type": "link",
+        "label": "document number 2",
+        "href": "/docs/doc2"
+      },
+      {
+        "type": "link",
+        "label": "This is document number 3",
+        "href": "/docs/doc3"
+      },
+      {
+        "type": "link",
+        "label": "Other Document",
+        "href": "/docs/doc4"
+      },
+      {
+        "type": "link",
+        "label": "Fifth Document",
+        "href": "/docs/doc5"
+      }
+    ]
+  }
+}

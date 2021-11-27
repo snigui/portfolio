@@ -1,0 +1,27 @@
+{
+  "unversionedId": "Education/edu",
+  "id": "Education/edu",
+  "isDocsHomePage": false,
+  "title": "Education",
+  "description": "State Univerisity of New York at Buffalo",
+  "source": "@site/docs/Education/edu.mdx",
+  "sourceDirName": "Education",
+  "slug": "/Education/edu",
+  "permalink": "/docs/Education/edu",
+  "editUrl": "https://github.com/snigui/snigui.github.io/docs/Education/edu.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "portfolioSidebar",
+  "previous": {
+    "title": "♥️",
+    "permalink": "/docs/credentials"
+  },
+  "next": {
+    "title": "Work experiences",
+    "permalink": "/docs/Work/wrk"
+  }
+}

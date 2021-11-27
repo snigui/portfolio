@@ -1,0 +1,27 @@
+{
+  "unversionedId": "doc2",
+  "id": "doc2",
+  "isDocsHomePage": false,
+  "title": "document number 2",
+  "description": "This is a link to another document.",
+  "source": "@site/docs/doc2.md",
+  "sourceDirName": ".",
+  "slug": "/doc2",
+  "permalink": "/docs/doc2",
+  "editUrl": "https://github.com/snigui/snigui.github.io/docs/doc2.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "doc2",
+    "title": "document number 2"
+  },
+  "sidebar": "portfolioSidebar",
+  "previous": {
+    "title": "Example Page",
+    "permalink": "/docs/doc1"
+  },
+  "next": {
+    "title": "This is document number 3",
+    "permalink": "/docs/doc3"
+  }
+}

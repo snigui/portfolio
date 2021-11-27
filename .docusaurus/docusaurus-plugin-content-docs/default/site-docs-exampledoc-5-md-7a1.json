@@ -1,0 +1,23 @@
+{
+  "unversionedId": "doc5",
+  "id": "doc5",
+  "isDocsHomePage": false,
+  "title": "Fifth Document",
+  "description": "Another one",
+  "source": "@site/docs/exampledoc5.md",
+  "sourceDirName": ".",
+  "slug": "/doc5",
+  "permalink": "/docs/doc5",
+  "editUrl": "https://github.com/snigui/snigui.github.io/docs/exampledoc5.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "id": "doc5",
+    "title": "Fifth Document"
+  },
+  "sidebar": "portfolioSidebar",
+  "previous": {
+    "title": "Other Document",
+    "permalink": "/docs/doc4"
+  }
+}

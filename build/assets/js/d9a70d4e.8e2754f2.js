@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[600],{657:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/voice-note","name":"voice note","count":1,"permalink":"/blog/tags/voice-note"}')}}]);
