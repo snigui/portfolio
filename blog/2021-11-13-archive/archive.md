@@ -17,7 +17,7 @@ sidebar_position: 1
 
 <div class="frame">
 <iframe id="ytplayer" type="text/html" width="100%" height="400"
-src="https://www.youtube.com/embed/scwKfxHTfPI?autoplay=1&cc_load_policy=1&enablejsapi=1&modestbranding=1&playsinline=1&color=white"
+src="https://www.youtube.com/embed/scwKfxHTfPI?cc_load_policy=1&enablejsapi=1&modestbranding=1&playsinline=1&color=white"
 frameborder="0" allowfullscreen></iframe>
 </div>
 
@@ -30,7 +30,7 @@ frameborder="0" allowfullscreen></iframe>
 
 <div class="frame">
 <iframe id="ytplayer" type="text/html" width="100%" height="400"
-src="https://www.youtube.com/embed/4Zus1DGcvoM?autoplay=1&cc_load_policy=1&enablejsapi=1&modestbranding=1&playsinline=1&color=white"
+src="https://www.youtube.com/embed/4Zus1DGcvoM?cc_load_policy=1&enablejsapi=1&modestbranding=1&playsinline=1&color=white"
 frameborder="0" allowfullscreen></iframe>
 </div>
 
@@ -43,7 +43,7 @@ frameborder="0" allowfullscreen></iframe>
 
 <div class="frame">
 <iframe id="ytplayer" type="text/html" width="100%" height="400"
-src="https://www.youtube.com/embed/pAGmtlv2mCA?autoplay=1&cc_load_policy=1&enablejsapi=1&modestbranding=1&playsinline=1&color=white"
+src="https://www.youtube.com/embed/pAGmtlv2mCA?cc_load_policy=1&enablejsapi=1&modestbranding=1&playsinline=1&color=white"
 frameborder="0" allowfullscreen></iframe>
 </div>
 
