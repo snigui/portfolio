@@ -3,7 +3,7 @@ slug: auto
 title: automating the web!
 authors: [snigdha]
 tags: [python, web scraping]
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 <details>

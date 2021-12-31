@@ -3,7 +3,7 @@ slug: Breakthrough Junior Challenge Videos
 title: archive of science videos
 authors: [snigdha]
 tags: [videos, animation, science]
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 <details>

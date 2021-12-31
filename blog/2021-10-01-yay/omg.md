@@ -3,7 +3,7 @@ slug: sean carroll!
 title: so, I met...
 authors: [snigdha]
 tags: [noteworthy]
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 <details>

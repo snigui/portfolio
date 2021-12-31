@@ -3,11 +3,11 @@ slug: Videos of Audios
 title: archive of garage music
 authors: [snigdha]
 tags: [videos, animation, music, art]
-sidebar_position: 5
+sidebar_position: 70
 ---
 
 <details>
-<summary> Musical exploration, from the teenage era </summary>
+<summary> musical exploration, from the teenage era </summary>
 
 ### Nothing much to listen here
 > just some music I made using Garageband back in the day ~~that have been well hidden from the world because I was too embarrassed by my horrible skills at making music~~
