@@ -21,8 +21,6 @@
   --ifm-font-family-base: 'Open Sans';
 }
 
-
-
 html[data-theme='dark']{
   --ifm-background-surface-color: #181520;
   --ifm-background-color: #141528;
@@ -84,11 +82,24 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   }
 }
 
+.row .col.col--3 {
+    --ifm-col-width: calc(3 / 19 * 100%);
+}
+.row .col.col--7 {
+    --ifm-col-width: calc(7 / 9 * 100%);
+}
 .frame{
-  width: 100vw;
-  height: 70vh;
+  width: auto;
+  height: auto;
 }
 
+#blog{
+  zoom: 2.4;
+  height: 435px;
+  width: -webkit-fill-available;
+  box-sizing: content-box;
+  overflow: scroll;
+}
 
 
 h1{

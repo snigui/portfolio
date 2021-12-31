@@ -7,7 +7,7 @@ sidebar_position: 70
 ---
 
 <details>
-<summary> musical exploration, from the teenage era </summary>
+<summary> Musical exploration, from the teenage era </summary>
 
 ### Nothing much to listen here
 > just some music I made using Garageband back in the day ~~that have been well hidden from the world because I was too embarrassed by my horrible skills at making music~~

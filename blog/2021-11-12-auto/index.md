@@ -7,7 +7,7 @@ sidebar_position: 4
 ---
 
 <details>
-<summary> so you have to register for classes at 7:00am... </summary>
+<summary> So you have to register for classes at 7:00am... </summary>
 
 ## Let python do it for you with Selenium
 

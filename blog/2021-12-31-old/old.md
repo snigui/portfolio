@@ -13,7 +13,11 @@ People are creatures of habit. I only say that because I find myself discovering
 
 [This blog: （Φ ω Φ）Bushi The Cat](https://bushicat.blogspot.com) was one of my first serious blogs that I managed to consistently maintain throughout the years, although "consistent" in a very sporadic way...
 
-I started it at the raw age of 11. The blog was the reason for believing I could even survive in the field of programming and Computer Science, and look at where it got me now! I still remember revamping that blog every other year with animated flowers annoyingly scattering the whole screen to a space theme with Canon in D automatically playing in the background (yikes...adware botmaters, if you wanna hire someone, it would be me).
+<div class="frame">
+<iframe id="blog" type="text/html" src="https://bushicat.blogspot.com/2011/12/happy-new-year-bushi-and-me.html" scrolling="yes"> </iframe>
+</div>
+
+I started it at the raw age of 11. The blog was the reason for believing I could even survive in the field of programming and Computer Science, and look at where it got me now! I still remember revamping that blog every other year with animated flowers annoyingly scattering the whole screen to a space theme with Canon in D automatically playing in the background (yikes...adware botmasters, if you wanna hire someone, it would be me).
 
 However, all of that exposed me to programming and web dev already as an early teen. I do say I was technically a newbie to coding when I started out as an undergraduate to get a degree in Computer Science, but, I did have some HTML experience. However, not my fault HTML isn't considered as coding :stuck_out_tongue_winking_eye:
 
@@ -30,7 +34,7 @@ sus... ![sus](./sus.gif)
 </details>
 
 
-> Please do not visit it, however.
+> Please do not visit and actually read stuff on there, however.
  ![noo](./noo.gif)
 
 > It is, afterall, filled with posts from an emo child which are known to be super cringe in nature.
