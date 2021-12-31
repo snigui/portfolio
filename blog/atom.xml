@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://snigui.github.io/blog</id>
+    <title>conscious stardust Blog</title>
+    <updated>2021-12-31T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://snigui.github.io/blog"/>
+    <subtitle>conscious stardust Blog</subtitle>
+    <icon>https://snigui.github.io/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[ancient blog]]></title>
+        <id>Old Blog</id>
+        <link href="https://snigui.github.io/blog/Old Blog"/>
+        <updated>2021-12-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[A blog from a decade ago]]></summary>
+        <content type="html"><![CDATA[<details><summary> A blog from a decade ago </summary><p>People are creatures of habit. I only say that because I find myself discovering patterns of things I do and have done for decades now. One such habit is to maintain a blog on the interwebs!</p><p><a href="https://bushicat.blogspot.com">This blog: （Φ ω Φ）Bushi The Cat</a> was one of my first serious blogs that I managed to consistently maintain throughout the years, although &quot;consistent&quot; in a very sporadic way...</p><div class="frame"><iframe id="blog" type="text/html" src="https://bushicat.blogspot.com/2011/12/happy-new-year-bushi-and-me.html" scrolling="yes"> </iframe></div><p>I started it at the raw age of 11. The blog was the reason for believing I could even survive in the field of programming and Computer Science, and look at where it got me now! I still remember revamping that blog every other year with animated flowers annoyingly scattering the whole screen to a space theme with Canon in D automatically playing in the background (yikes...adware botmasters, if you wanna hire someone, it would be me).</p><p>However, all of that exposed me to programming and web dev already as an early teen. I do say I was technically a newbie to coding when I started out as an undergraduate to get a degree in Computer Science, but, I did have some HTML experience. However, not my fault HTML isn&#x27;t considered as coding :stuck_out_tongue_winking_eye:</p><p>Anyway, this post is to record, and faintly keep alive, the online pursuits of a young nerdy kid through a blog! And, maybe motivate someone<sup>sus...</sup> to start out small and do something as easy as making a blog to get into the world of web dev!</p><details><summary><p>sus... <img src="./sus.gif" alt="sus"/></p></summary><p>(i.e. if anyone is reading this obscure post of mine! seriously, how did you end up here? we would probably get along great)</p></details><blockquote><p>Please do not visit and actually read stuff on there, however.
+<img src="./noo.gif" alt="noo"/></p></blockquote><blockquote><p>It is, afterall, filled with posts from an emo child which are known to be super cringe in nature.</p></blockquote></details>]]></content>
+        <author>
+            <name>snigdha</name>
+            <uri>https://github.com/snigui</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[tips for making your website great!]]></title>
+        <id>Building Simple WebApps</id>
+        <link href="https://snigui.github.io/blog/Building Simple WebApps"/>
+        <updated>2021-11-27T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[How to Properly Build a Website!]]></summary>
+        <content type="html"><![CDATA[<details><summary> How to Properly Build a Website! </summary><h3>From the seeimgly never-ending choices of webframeworks...</h3><blockquote><p>what do you pick? how do you pick!</p></blockquote><details><summary> Here&#x27;s my take on things to do to build a website, easily <p> <img src="./kao0.gif" alt="kao0"/></p></summary><details><summary><h3>1. Rendering pages, accessibly.</h3></summary><p>   If anything, a website can be boiled down to &quot;rendering pages with information&quot;. So, you gotta have that in place! To take it up a notch, however, an important ability is to render pages on different screens and formats (from accessible dictation enabled to translatable in multiple languages).</p><p><img src="./009.gif" alt="kao1"/></p><p>   As long as your pages are easily accessible to your target audience, your website is in a great position already!</p></details><details><summary><h3>2. Setting in place an editable workflow</h3></summary><p>   Unless the point of your website is a one time done deal where it is meant to be completely static, it might be useful to set up a predefined, well-staged workflow that you can recreate over and over again in order to make changes to your site efficiently!</p><p>   <img src="./lunetta04.gif" alt="kao4"/></p><p>   I personally use <a href="https://docusaurus.io/docs">Docusaurus</a> Docusaurus to do the heavy-weight lifting of getting all of my posts sorted and displayed correctly (and prettily). The most I do is make a new blog post in the blog directory using Atom (and IDE) . Then I simply the run the commands to publish:</p><pre><code class="language-python">yarn build
+yarn deploy
+</code></pre><p>  The initial set up might be tedious but it does pay off in the long run!</p></details><details><summary><h3>3. Integrating with version control</h3></summary><p>   <img src="./kao1.gif" alt="kao6"/></p><p>  Last time I wanted to make changes to my website, I had messed up the package.json file and couldn&#x27;t get yarn to execute its handy scripts for the life of me.</p><p>  It then led me to a rabbit-hole of frustration and deletions where I ended up losing my entire project locally (I wish I knew how I messed up <strong>that</strong> bad!!). But, mishaps happen! The only saving light happened to be a random branch I had accidentally made on GitHub when I still had all the files in tact.</p><p>   <img src="./ugh.gif" alt="kao8"/></p><p>  Now, with that experience, I am a huge propagator of keeping track of almost all changes you make to your site using git (or your favorite version control system). Trust me, it is going to be a literal sanity saver.</p></details><details><summary><h3>4. Using as few frameworks as possible</h3></summary><p>   <img src="./014.gif" alt="kao9"/></p><p>  I basically run this entire website using Docusaurus which helps me manage <a href="https://docusaurus.io/docs/markdown-features/react">React, Markdown</a> and <a href="https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/">Node</a>. Docusaurus also has its own CSS styling tool called <a href="https://infima.dev/">Infima</a> that standardizes all the themes on here, making things look simple and consistent! Of course, React makes my site very scalable (to the point that you can size down your browser to extremes and still not have most components act up and look horrible).</p><p>  In summary, pick a great framework that has all the needs of your website handled, all in one place, while also giving you the ability to completely take control over every component if needed.</p><p>   <img src="./020.gif" alt="kao11"/></p><p>  I have made a significant amount of additions and changes to the basic <a href="https://docusaurus.io/docs/playground">Docusaurus</a> features by learning the specifics of the technologies it builds on!</p><p>  You will know you have picked a great framework if it lets you break it apart and take control over all the tools it uses, while also exposing you to these new tools, helping you learn!</p></details><details><summary><h3>5. Hosting the site</h3></summary><p>  It&#x27;s not as fun if your website stays forever in localhost, never branching out into the world wide web! Again, an overwhelming number of site hosting solutions ranging from GoDaddy, WordPress and even some GUI based website builders such as Wix and Squaresite are out there for use.</p><p>  I am assuming, since you are reading this, you are tech savvy enough to not settle for pure GUI drag and drop website builders though (which is the best way to go in my personal opinion).  </p><p>  <img src="./computer05.gif" alt="kao13"/></p><p>  Just by learning a little bit of the basics of web hosting (and cloud services), you can host a pretty heavy-weight website for FREE on the interwebs. My webpage, as the name suggests, uses GitHub. <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages">GitHub pages</a> is very highly documented and has an active community (similar to Docusaurus). It makes it super simple for me to push changes for the world to see with a few simple command line inputs locally.</p><p>  Again, the initial research and getting used to will be very tedious, but once you do find the right hosting service, you will know you found THE ONE when it boils down to being super simple in the long run. Plus, I get a cool domain name without spending a single cent!</p><p>  I have seen other commercial hosting services purposefully give their users really ugly, long and gross default domain names to incentivize them to spend money for better ones.</p><p>  <img src="./018.gif" alt="kao12"/></p><p>  That would not be the case if you were to choose a cloud hosting service such as <a href="https://www.digitalocean.com/solutions/website-hosting/">DigitalOcean</a>, <a href="https://www.khanacademy.org/computing/computer-programming/html-css/web-development-tools/a/hosting-your-website-on-github">GitHub pages</a>, <a href="https://cloud.google.com/solutions/web-hosting">Google Cloud</a> etc. (which do require you to know coding).</p></details><details><summary><h3>6. Making the site visually appealing</h3></summary><p>  Some go-to&#x27;s to have on your site:</p><ul><li><p>Scalable graphics</p></li><li><p>Collapsible sections</p></li><li><p>Minimal text blobs</p></li><li><p>Spacious layout</p><p><img src="./tiny.gif" alt="kao007"/></p><p>This area is more subjective than not and does depend on your preferences. However, if you want to tune your site towards a general range of audience, the simpler and easier to use your website is, the better!</p></li></ul></details><details><summary><h3>7. Browser console debugging</h3></summary><p>  In browser console&#x27;s have really upped their game. Browsers such as Chrome, Firefox, <a href="https://brave.com/">Brave</a> have an almost IDE like console!</p><blockquote><p>✨ Brave: I recently found out about. It is super cool and gives creators cryptocurrency. I will make another post all about crypto, next!</p></blockquote><p>  For now, I wanted to mention about the tool named: &quot;Lighthouse&quot;. This is a website auditing tool which conveniently fetches you a report on your site&#x27;s performance and compliance with web and security standards.</p><p>  If anything, I would highly suggest any web dev out there to run their sites through Lighthouse at least once before deployment and take a note of the report!</p><p>  <img src="./barre14.gif" alt="kao003"/></p><p>  Here&#x27;s a quick look at a report that was generated for this site (<del>no bragging intended</del>):</p><p>  <img src="./lighthouse.png" alt="lighthouse"/></p><p>  If you expand the report, Lighthouse lays out all the details on what could be improved on your page, along with links to resources on building accessible, fast and reliable webpages! It is a great tool to truly delve deep into the world of web development.</p><p>  <img src="./fuu.gif" alt="kao005"/></p></details><p>I will leave it at these brief 7 ideas. Implementing them have personally helped me a lot in learning web development. Hopefully, these basic approaches can help you make a great website! And, good luck on centering that div!</p><p><img src="./barre18.gif" alt="kao002"/></p></details></details>]]></content>
+        <author>
+            <name>snigdha</name>
+            <uri>https://github.com/snigui</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[archive of science videos]]></title>
+        <id>Breakthrough Junior Challenge Videos</id>
+        <link href="https://snigui.github.io/blog/Breakthrough Junior Challenge Videos"/>
+        <updated>2021-11-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Breakthrough Junior Challenge Videos!]]></summary>
+        <content type="html"><![CDATA[<details><summary> Breakthrough Junior Challenge Videos! </summary><h3>Here is the saga of the videos</h3><blockquote><p>that did not get to see the light of day after the challenges ended <del>and because I was too shy to make them <strong>public</strong> public</del></p></blockquote><details><summary> On Nuclear Power, 2018 </summary><div class="frame"><iframe id="ytplayer" type="text/html" width="100%" height="400" src="https://www.youtube.com/embed/scwKfxHTfPI?cc_load_policy=1&amp;enablejsapi=1&amp;modestbranding=1&amp;playsinline=1&amp;color=white" frameborder="0"></iframe></div></details><hr/><details><summary> On Fire, 2017 </summary><div class="frame"><iframe id="ytplayer" type="text/html" width="100%" height="400" src="https://www.youtube.com/embed/4Zus1DGcvoM?cc_load_policy=1&amp;enablejsapi=1&amp;modestbranding=1&amp;playsinline=1&amp;color=white" frameborder="0"></iframe></div></details><hr/><details><summary> On Meditation, 2016 </summary><div class="frame"><iframe id="ytplayer" type="text/html" width="100%" height="400" src="https://www.youtube.com/embed/pAGmtlv2mCA?cc_load_policy=1&amp;enablejsapi=1&amp;modestbranding=1&amp;playsinline=1&amp;color=white" frameborder="0"></iframe></div></details><h4>too late to unsee them anymore</h4></details>]]></content>
+        <author>
+            <name>snigdha</name>
+            <uri>https://github.com/snigui</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[automating the web!]]></title>
+        <id>auto</id>
+        <link href="https://snigui.github.io/blog/auto"/>
+        <updated>2021-11-12T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[So you have to register for classes at 7:00am...]]></summary>
+        <content type="html"><![CDATA[<details><summary> So you have to register for classes at 7:00am... </summary><h2>Let python do it for you with Selenium</h2><p><a href="https://selenium-python.readthedocs.io/installation.html"><img src="./logo.svg" alt="click me"/></a></p><p>Selenium is a web scraping tool that beautifully integrates with python. It allows you to automate webpage interactions.</p><p>I stumbled across it a while ago, but I had not used the actual API until recently. Long story short, I had to make a doctor&#x27;s appointment right at 12am to even find a spot (thank you American healthcare system!).</p><p>Regardless, whether it be to automate time sensitive actions or long and arduous form filling, Selenium is here for your rescue. I will go over a few useful Selenium methods that should equip you with basic webpage interactions.</p><blockquote><p>Note: these methods work as of November 2021</p></blockquote><h3>Useful Selenium methods</h3><hr/><p><code>service.start()</code></p><p>This <a href="https://www.selenium.dev/selenium/docs/api/rb/Selenium/WebDriver/Service.html">method</a> allows to set up a browser driver.</p><p>I personally used the chrome driver:</p><pre><code class="language-python">from selenium import webdriver
+
+from selenium.webdriver.chrome.service import Service
+
+service = Service(&#x27;/path/to/chromedriver&#x27;)
+
+service.start()
+</code></pre><blockquote><p>You will have to locally install the &#x27;chromedriver&#x27; executable. You can install it and find more usage examples <a href="https://chromedriver.chromium.org/getting-started">here</a>.</p></blockquote><hr/><p><code>driver.get(url)</code></p><p>Once you have the browser all set up, you can connect to it remotely with Selenium using the .get method as follows:</p><pre><code class="language-python">driver = webdriver.Remote(service.service_url)
+driver.get(&#x27;[insert url of page you want to selenium to work its magic on]&#x27;)
+</code></pre><p>And, that&#x27;s the basic set up! You can now inspect element on the target webpage to figure out which fields you want to automate interaction with.</p><hr/><p><code>driver.find_element</code></p><p>Let&#x27;s say, I want to automatically search something on Google. I would first figure out the class name/ID of the search bar using &quot;inspect element&quot;:</p><p><img src="./snip.png" alt="google"/></p><p>Since there is only a class name of <code>gLFyf</code> attached, it would be used to select the search bar and insert a value to search using the code:</p><pre><code class="language-python">searchbar = &#x27;gLFyf&#x27;
+driver.find_element(By.CLASS_NAME,searchbar).send_keys(&quot;[value to search]&quot;)
+</code></pre><blockquote><p>The send_keys method can take an array as well to fit the format of the input field. Regardless of the type of input, &quot; &quot; are needed.</p></blockquote><hr/><p><code>actions</code></p><p>Finally, you can make Selenium click the search button by repeating a similar process of finding the search button&#x27;s class name/ID. Here&#x27;s a sample snippet:</p><pre><code class="language-python">submit = &quot;gNO89b&quot;
+driver.find_element(By.CLASS_NAME, submit).click()
+</code></pre><blockquote><p>A full list of different actions Selenium can perform can be found <a href="https://selenium-python.readthedocs.io/navigating.html">here</a>.</p></blockquote><hr/><p><code>driver.quit()</code></p><p>Don&#x27;t forget to close the automation process and the browser by using the quit method at the end!</p><hr/><h4>Have fun with your newfound web super power.</h4><blockquote><p>Tip: you can also schedule your python script to execute during specific times using <a href="https://wiki.archlinux.org/title/cron#Crontab_format">cron</a></p></blockquote></details>]]></content>
+        <author>
+            <name>snigdha</name>
+            <uri>https://github.com/snigui</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[so, I met...]]></title>
+        <id>sean carroll!</id>
+        <link href="https://snigui.github.io/blog/sean carroll!"/>
+        <updated>2021-10-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Sean Carroll]]></summary>
+        <content type="html"><![CDATA[<details><summary> Sean Carroll </summary><p><img src="./sean.gif" alt="sean"/></p><h2>on: <a href="https://www.preposterousuniverse.com/blog/2014/06/30/why-the-many-worlds-formulation-of-quantum-mechanics-is-probably-correct/"><em>The Many World of Quantum Physics</em></a></h2><blockquote><p>Physicist <a href="https://www.preposterousuniverse.com/">Sean Carroll</a>, from CalTech, gave a guest lecture <a href="https://www.facebook.com/ubphysics/photos/pcb.6325105130896296/6325099690896840">here at my university!!</a></p><hr/></blockquote><details><summary> I asked him.... </summary><p><img src="./snig.png" alt="snigdha"/></p><blockquote><p>many questions but my favorite pick is: <em>&quot;why the universe is thought to be symmetric?&quot;</em> and he said..</p></blockquote><blockquote><blockquote><pre><code>   &quot;it doesn&#x27;t have to be!&quot;
+</code></pre></blockquote></blockquote></details></details>]]></content>
+        <author>
+            <name>snigdha</name>
+            <uri>https://github.com/snigui</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[experimental podcast audio]]></title>
+        <id>voicenote</id>
+        <link href="https://snigui.github.io/blog/voicenote"/>
+        <updated>2021-09-10T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[atypicalhuman0.0]]></summary>
+        <content type="html"><![CDATA[<details><summary> atypicalhuman0.0 </summary><p><a href="https://open.spotify.com/episode/3n8tSckrE9JK0GEfWHWsmm?si=YI-KNx71QYSzBPs8sBrOFw"><img src="./podcastBadge.svg" alt="badge"/></a></p><h2>experimental note:</h2><p><img src="./experiment.gif" alt="experiment"/></p><details><summary>    audio:    </summary><iframe src="https://share.descript.com/embed/6nlw0DbxEUg" width="auto" height="900" display="block" frameBorder="0" allowfullscreen=""></iframe></details></details>]]></content>
+        <author>
+            <name>snigdha</name>
+            <uri>https://github.com/snigui</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[archive of garage music]]></title>
+        <id>Videos of Audios</id>
+        <link href="https://snigui.github.io/blog/Videos of Audios"/>
+        <updated>2016-07-18T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Musical exploration, from the teenage era]]></summary>
+        <content type="html"><![CDATA[<details><summary> Musical exploration, from the teenage era </summary><h3>Nothing much to listen here</h3><blockquote><p>just some music I made using Garageband back in the day <del>that have been well hidden from the world because I was too embarrassed by my horrible skills at making music</del></p></blockquote><details><summary> Garageband Musicals </summary><div class="frame"><iframe width="100%" height="400" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLzoRCirCtkr98lCaTViuyHj9ISGuKvhWT" title="music" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div></details><hr/><h4>too late to unhear them anymore</h4></details>]]></content>
+        <author>
+            <name>snigdha</name>
+            <uri>https://github.com/snigui</uri>
+        </author>
+    </entry>
+</feed>
