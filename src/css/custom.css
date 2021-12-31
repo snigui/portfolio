@@ -84,6 +84,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 .row .col.col--3 {
     --ifm-col-width: calc(3 / 19 * 100%);
+    --ifm-col-width: 20%;
 }
 .row .col.col--7 {
     --ifm-col-width: calc(7 / 9 * 100%);
@@ -95,8 +96,14 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 
 #blog{
   zoom: 2.4;
+  -o-transform: scale(1);
+  -o-transform-origin: 0 0;
+  -webkit-transform: scale(1);
+  -webkit-transform-origin: 0 0;
   height: 435px;
   width: -webkit-fill-available;
+  width: -moz-available;
+  width: fill-available;
   box-sizing: content-box;
   overflow: scroll;
 }
