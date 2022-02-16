@@ -27,10 +27,14 @@ const config = {
           editUrl: 'https://github.com/snigui/snigui.github.io',
         },
         blog: {
-          showReadingTime: false,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/snigui/snigui.github.io',
+          showReadingTime: true,
+          editUrl: 'https://github.com/snigui/snigui.github.io',
+          blogSidebarTitle: 'Recent',
+          blogSidebarCount: 3,
+          feedOptions: {
+            type: 'all',
+            copyright: `Copyright © ${new Date().getFullYear()} Motadaka.`,
+          },
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

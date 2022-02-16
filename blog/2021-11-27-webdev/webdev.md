@@ -5,7 +5,7 @@ authors: [snigdha]
 tags: [dev, webdev, coding]
 sidebar_position: 2
 ---
-
+<article>
 <details>
 <summary> How to Properly Build a Website! </summary>
 
@@ -188,3 +188,4 @@ I will leave it at these brief 7 ideas. Implementing them have personally helped
 </details>
 
 </details>
+</article>

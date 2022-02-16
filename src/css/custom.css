@@ -1,6 +1,5 @@
 /**
- * Any CSS included here will be global. The classic template
- * bundles Infima by default. Infima is a CSS framework designed to
+ * Any CSS included here will be global. Infima is a CSS framework designed to
  * work well for content-centric websites.
  */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
@@ -83,12 +82,12 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 }
 
 .row .col.col--3 {
-    --ifm-col-width: calc(3 / 19 * 100%);
-    --ifm-col-width: 20%;
+    --ifm-col-width: calc(3 / 25 * 100%);
 }
 .row .col.col--7 {
-    --ifm-col-width: calc(7 / 9 * 100%);
+    --ifm-col-width: calc(7 / 8 * 100%);
 }
+
 .frame{
   width: auto;
   height: auto;
