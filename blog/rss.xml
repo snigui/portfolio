@@ -4,10 +4,18 @@
         <title>conscious stardust Blog</title>
         <link>https://snigui.github.io/blog</link>
         <description>conscious stardust Blog</description>
-        <lastBuildDate>Fri, 31 Dec 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 26 Jun 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2022 Motadaka.</copyright>
+        <item>
+            <title><![CDATA[Wade vs. Roe overruling flaws]]></title>
+            <link>https://snigui.github.io/blog/Wade vs. Roe</link>
+            <guid>Wade vs. Roe</guid>
+            <pubDate>Sun, 26 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Audio]]></description>
+            <content:encoded><![CDATA[<details><summary>    Audio    </summary><iframe src="https://share.descript.com/embed/m4h0MYd59TX" width="640" height="360" frameborder="0"></iframe></details>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[ancient blog]]></title>
             <link>https://snigui.github.io/blog/Old Blog</link>

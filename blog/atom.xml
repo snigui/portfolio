@@ -2,12 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://snigui.github.io/blog</id>
     <title>conscious stardust Blog</title>
-    <updated>2021-12-31T00:00:00.000Z</updated>
+    <updated>2022-06-26T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://snigui.github.io/blog"/>
     <subtitle>conscious stardust Blog</subtitle>
     <icon>https://snigui.github.io/img/favicon.ico</icon>
     <rights>Copyright © 2022 Motadaka.</rights>
+    <entry>
+        <title type="html"><![CDATA[Wade vs. Roe overruling flaws]]></title>
+        <id>Wade vs. Roe</id>
+        <link href="https://snigui.github.io/blog/Wade vs. Roe"/>
+        <updated>2022-06-26T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Audio]]></summary>
+        <content type="html"><![CDATA[<details><summary>    Audio    </summary><iframe src="https://share.descript.com/embed/m4h0MYd59TX" width="640" height="360" frameborder="0"></iframe></details>]]></content>
+        <author>
+            <name>snigdha</name>
+            <uri>https://github.com/snigui</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[ancient blog]]></title>
         <id>Old Blog</id>
