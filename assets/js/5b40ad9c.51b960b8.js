@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[4888],{8667:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/archaeology","name":"archaeology","count":1,"permalink":"/blog/tags/archaeology"}')}}]);
