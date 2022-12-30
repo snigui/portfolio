@@ -2,12 +2,24 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://snigui.github.io/blog</id>
     <title>conscious stardust Blog</title>
-    <updated>2022-07-03T00:00:00.000Z</updated>
+    <updated>2022-12-29T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://snigui.github.io/blog"/>
     <subtitle>conscious stardust Blog</subtitle>
     <icon>https://snigui.github.io/img/favicon.ico</icon>
     <rights>Copyright © 2022 Motadaka.</rights>
+    <entry>
+        <title type="html"><![CDATA[surviving the Buffalo Blizzard of 2022]]></title>
+        <id>blizzard</id>
+        <link href="https://snigui.github.io/blog/blizzard"/>
+        <updated>2022-12-29T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[The Blizzard of 2022.]]></summary>
+        <content type="html"><![CDATA[<details><summary> The Blizzard of 2022.</summary><div class="frame"><iframe width="100%" height="315" src="https://www.youtube.com/embed/QNYw4m2zJQU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe></div></details>]]></content>
+        <author>
+            <name>snigdha</name>
+            <uri>https://github.com/snigui</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[giants and hindu civilization]]></title>
         <id>giants</id>

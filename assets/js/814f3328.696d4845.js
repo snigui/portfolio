@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[2535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent","items":[{"title":"giants and hindu civilization","permalink":"/blog/giants"},{"title":"wade vs. roe overruling flaws","permalink":"/blog/WadevRoe"},{"title":"ancient blog","permalink":"/blog/Old Blog"}]}')}}]);
