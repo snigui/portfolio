@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[2535],{5641:function(i){i.exports=JSON.parse('{"title":"Recent","items":[{"title":"surviving the Buffalo Blizzard of 2022","permalink":"/blog/blizzard"},{"title":"giants and hindu civilization","permalink":"/blog/giants"},{"title":"wade vs. roe overruling flaws","permalink":"/blog/WadevRoe"}]}')}}]);
