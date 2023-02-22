@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[692],{3776:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/philosophy","name":"philosophy","count":1,"permalink":"/blog/tags/philosophy"}')}}]);

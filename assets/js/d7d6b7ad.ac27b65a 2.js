@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[1003],{8734:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/spiritual","name":"spiritual","count":1,"permalink":"/blog/tags/spiritual"}')}}]);

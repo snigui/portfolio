@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[648],{4825:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/web-scraping","name":"web scraping","count":1,"permalink":"/blog/tags/web-scraping"}')}}]);
