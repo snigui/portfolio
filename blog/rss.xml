@@ -4,10 +4,17 @@
         <title>conscious stardust Blog</title>
         <link>https://snigui.github.io/blog</link>
         <description>conscious stardust Blog</description>
-        <lastBuildDate>Tue, 21 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 05 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <copyright>Copyright © 2023 Motadaka.</copyright>
+        <item>
+            <title><![CDATA[blind]]></title>
+            <link>https://snigui.github.io/blog/blind</link>
+            <guid>blind</guid>
+            <pubDate>Sun, 05 Mar 2023 00:00:00 GMT</pubDate>
+            <content:encoded><![CDATA[<iframe src="https://share.descript.com/embed/aKzKsYGyzhx" width="640" height="360" frameborder="0"></iframe>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[the power of belief]]></title>
             <link>https://snigui.github.io/blog/belief</link>

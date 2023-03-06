@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkportfolio=self.webpackChunkportfolio||[]).push([[2535],{5641:function(e){e.exports=JSON.parse('{"title":"Recent","items":[{"title":"blind","permalink":"/blog/blind"},{"title":"the power of belief","permalink":"/blog/belief"},{"title":"surviving the Buffalo Blizzard of 2022","permalink":"/blog/blizzard"}]}')}}]);

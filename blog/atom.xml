@@ -2,12 +2,23 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://snigui.github.io/blog</id>
     <title>conscious stardust Blog</title>
-    <updated>2023-02-21T00:00:00.000Z</updated>
+    <updated>2023-03-05T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://snigui.github.io/blog"/>
     <subtitle>conscious stardust Blog</subtitle>
     <icon>https://snigui.github.io/img/favicon.ico</icon>
     <rights>Copyright © 2023 Motadaka.</rights>
+    <entry>
+        <title type="html"><![CDATA[blind]]></title>
+        <id>blind</id>
+        <link href="https://snigui.github.io/blog/blind"/>
+        <updated>2023-03-05T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[<iframe src="https://share.descript.com/embed/aKzKsYGyzhx" width="640" height="360" frameborder="0"></iframe>]]></content>
+        <author>
+            <name>snigdha</name>
+            <uri>https://github.com/snigui</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[the power of belief]]></title>
         <id>belief</id>
